@@ -16,6 +16,7 @@ import java.util.List;
 public class Login {
     WebDriver chromeDriver;
 
+    //mvn clean test -Dsurefire.suiteXmlFiles=/path/to/testng.xml
     @Test
     public void test() throws InterruptedException {
         WebDriverManager.chromedriver().setup();
